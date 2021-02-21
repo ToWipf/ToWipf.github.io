@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+      "Angular.ng-template",
+      "eamodio.gitlens",
+      "eg2.tslint",
+      "esbenp.prettier-vscode",
+      "Mikael.Angular-BeastCode"
+      "shinnn.stylelint"
+    ]
+  }
