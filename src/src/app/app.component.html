@@ -1,38 +1,10 @@
-<mat-drawer-container class="fullsize" [hasBackdrop]="hasBackdrop.value">
-
-    <mat-drawer #drawer [mode]="mode.value">
-        <perfect-scrollbar class="pscroll">
-
-            <div class="sidebar">
-                <div class="titlemenue">Hauptfunktionen</div>
-                <ul class="menueli">
-                    <li (click)="selectSite('seite1')">Seite 1</li>
-                    <li (click)="selectSite('seite2')">Seite 2</li>
-                </ul>
-
-            </div>
-        </perfect-scrollbar>
-    </mat-drawer>
-
-    <mat-drawer-content>
-        <div class="hide">
-            <mat-form-field>
-                <mat-select #mode value="push"></mat-select>
-                <mat-select #hasBackdrop value="true"></mat-select>
-            </mat-form-field>
-        </div>
-        <div class="fullsite">
-            <button class="mainMenueButton" (click)="drawer.toggle()">Menü Öffnen</button>
-            <div class="maincontainer">
-                <ng-container *ngIf="selectedSite==='seite1'">
-                    <app-seite1></app-seite1>
-                </ng-container>
-                <ng-container *ngIf="selectedSite==='seite2'">
-                    <app-seite2></app-seite2>
-                </ng-container>
-            </div>
-        </div>
-        <app-footer class="myfooter"></app-footer>
-    </mat-drawer-content>
-
-</mat-drawer-container>
+<h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+    <ul>
+        <li><a routerLink="/first-component" routerLinkActive="active">First Component</a></li>
+        <li><a routerLink="/second-component" routerLinkActive="active">Second Component</a></li>
+    </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>
