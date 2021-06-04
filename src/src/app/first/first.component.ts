@@ -22,6 +22,7 @@ export class FirstComponent implements OnInit {
   public setBlock(x: number, y: number): void {
     console.log(x, y);
     this.screen[x][y] = !this.screen[x][y];
+    this.get();
   }
 
   public reset() {
@@ -49,7 +50,11 @@ export class FirstComponent implements OnInit {
   public resToHex() {
     this.hexdata = "";
     this.dezdata.forEach((element) => {
-      this.hexdata = this.hexdata + "0x" + element.toString(16) + " ";
+      let nr = element.toString(16);
+      if (nr.length < 2) {
+        nr = "0" + nr;
+      }
+      this.hexdata = this.hexdata + "0x" + nr + " ";
     });
   }
 
