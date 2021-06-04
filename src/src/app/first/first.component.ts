@@ -26,6 +26,7 @@ export class FirstComponent implements OnInit {
   }
 
   public reset() {
+    this.hexdata = "";
     this.dezdata = new Array(this.sizeY).fill(0);
     this.screen = new Array(this.sizeX).fill(false).map(() => new Array(this.sizeY).fill(false));
     for (let x = 0; x < this.sizeX; x++) {
