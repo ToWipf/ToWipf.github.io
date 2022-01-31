@@ -1,9 +1,5 @@
 # Campsite Texture Pack
 
-## Umbenennbare Items
-
-Campsite items sind unter `assets\minecraft\optifine\cit\items\campsite`
-
 Fichtenholzfalltüren können im Rahmen genutzt werden
 
 ## TODO
