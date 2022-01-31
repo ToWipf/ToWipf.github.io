@@ -92,7 +92,7 @@ Fichtenholzfalltüren können im Rahmen genutzt werden
 - Strobo 
 - Strobo2
 
-# Eichtungen 
+# Einrichtungen 
 
 - Kelle (iron_ingot)
 - Pfanne (iron_ingot)
