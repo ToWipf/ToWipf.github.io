@@ -2,6 +2,8 @@
 
 Fichtenholzfalltüren können im Rahmen genutzt werden
 
+## Umbenennbare Items
+
 ## TODO
 
 - Bleistift
@@ -17,10 +19,9 @@ Fichtenholzfalltüren können im Rahmen genutzt werden
 - Waschbecken
 - Schachbrett
 - Uhr ?
-- 3d blumen
-- wirrpfeil
-- käserad
-- käse
+- 3d Blumen
+- Käserad
+- Käse
 - Nebel
 - Kaffetassen
 - Kaffekannen
